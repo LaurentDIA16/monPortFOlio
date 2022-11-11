@@ -12,7 +12,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: all .2s linear;
     line-height: 1.5;
 }
@@ -329,7 +329,7 @@ header .follow a:hover{
     background: #fff;
     padding: 2rem;
     border-radius: 0.5rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);  
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .moi .row-2 .box-container .box h3{
@@ -351,11 +351,12 @@ header .follow a:hover{
 
 .service .box-container .box{
     flex: 1 1 30rem;
-    text-align: center;
+    text-align:center;
     padding: 2rem;
     background: #fff;
     border-radius: 0.5rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .1);
+
 }
 
 .service .box-container .box img{
