@@ -381,6 +381,37 @@ header .follow a:hover{
     padding-top: 0.5rem;
 }
 
+.certification .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.certification .box-container .box{
+    flex: 1 1 30rem;
+    text-align:center;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.certification .box-container .box img{
+    height: 25rem;
+    width: 20rem;
+    font-size: 2.5rem;
+    color: #fff;
+    /* background: var(--main-color); */
+    /* border-radius: 10%; */
+}
+
+.certification .box-container .box h3{
+    color: #444;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+}
+
+
 .experience .box-container{
     display: flex;
     flex-wrap: wrap;
