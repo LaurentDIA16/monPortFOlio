@@ -349,6 +349,22 @@ header .follow a:hover{
     gap: 1.5rem;
 }
 
+.service .box-container .content p{
+    color: #666;
+    font-size: 1.7rem;
+    padding: 0.5rem 0;
+}
+
+.service .box-container .content ul{
+    color: #666;
+    font-size: 1.7rem;
+    padding: 0.5rem 0;
+}
+
+.project-list {
+    margin-left: 30px; /* Ajouter la marge de gauche que vous souhaitez */
+}
+
 .service .box-container .box{
     flex: 1 1 30rem;
     text-align:center;
