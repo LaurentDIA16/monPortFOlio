@@ -361,7 +361,7 @@ header .follow a:hover{
     padding: 0.5rem 0;
 }
 
-.content a {
+.service .box-container .content a {
     color: var(--main-color);
 }
 
