@@ -259,6 +259,10 @@ header .follow a:hover{
 }
 
 .moi .row-1 .content .box-container .box span{
+    color: black;
+}
+
+.moi .row-1 .content .box-container .box a{
     color: var(--main-color);
 }
 
@@ -594,6 +598,10 @@ header .follow a:hover{
 .contact .icons-container .icons p{
     color: #666;
     font-size: 1.7rem;
+}
+
+.contact .icons-container .icons a{
+    color: var(--main-color);
 }
 
 .contact .row{
